@@ -1,0 +1,84 @@
+.mainhead {
+text-align: center;
+background-color: gray;
+border: ridge 6px ;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;  
+
+}
+
+
+img {
+    width: 500px;
+    height: px; 
+    border: ridge 6px;
+    
+}
+
+.records {
+    border: 2px solid;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    max-height: 100%;
+    
+}
+
+hr {
+    block-size: auto;color: orange;
+    
+}
+
+label {
+color: aliceblue;
+}
+    
+h3 {
+color: aliceblue;
+
+
+}
+
+p {
+    color: aliceblue;
+}
+
+
+.firstname {
+    width: 100%;
+}
+
+.lastname {
+    width: 100%;
+}
+
+.phonenumber {
+    width: 100%;
+}
+
+.email {
+    width: 100%;
+}
+
+.address {
+    width: 100%;
+}
+
+.NIN {
+    width: 100%;
+}
+
+.previouscompany {
+    width: 100%;
+}
+.salary {
+    width: 100%;
+}
+
+.resumtion {
+    width: 100%;
+}
+
+
+
+
+

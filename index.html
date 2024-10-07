@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Employee Information Records Website</title>
+</head>
+<body style="background-color: black;">
+
+  <div>
+          <h1 class="mainhead">Assignment Records</h1>
+      <div class="records">
+          
+                <img src="Holiday me .jpg" alt="">
+
+          <div class="recordinfo">
+            <h3 >Employee Profile</h3>
+            <hr>
+
+            <form>
+
+                <div class="recordinfo1">
+                    <label for="firstname">First Name</label>
+                    <input type="text" class="firstname">
+                </div>
+                <br>
+
+                <div class="recordinfo2">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="lastname" required>
+                </div>
+                <br>
+
+                <div class="recordinfo3">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" class="phonenumber" placeholder="+234" required>
+                </div>
+                <br>
+
+                <div class="recordinfo4">
+                    <label for="email">Email</label>
+                    <input type="email" class="email" placeholder="example@gmail.com" required>
+                </div>
+                <br>
+
+                <div class="recordinfo5">
+                    <label for="address">Address</label>
+                    <input type="text" placeholder="No 5 Timmoty street" class="address" required>
+                </div>
+                <br>
+
+                <div class="recordinfo6">
+                    <label for="NIN">National Identity Number(NIN)</label>
+                    <input type="text" class="NIN" required>
+                </div>
+
+
+
+                <h3>Employee Employment History</h3>
+                <hr>
+
+
+                <div class="recordinfo6">
+                    <label for="previouscompany">Previous Company Name</label>
+                    <input type="text" class="previouscompany">
+                </div>
+                <br>
+
+                <div class="recordinfo7">
+                    <label for="salary">Salary</label>
+                    <input type="text" class="salary">
+                </div>
+
+                <div class="recordinfo8">
+                   
+                   <p>Job Difficulty Level</p>
+
+                    <label for="easy">Easy</label>
+                    <input type="radio" id="easy" name="Difficulty">
+
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="medium" name="Difficulty">
+                     
+                    <label for="hard">Hard</label>
+                    <input type="radio" id="hard" name="Difficulty">
+                </div>
+
+                <h3>Expected Resumtion </h3>
+                <hr>
+
+                <div class="recordinfo9">
+                    <label for="resumtion">Resumtion</label>
+                    <input type="date" class="resumtion">
+                </div>
+
+                <h3>Employee Consent</h3>
+                <hr>
+
+
+                <p>Do you agree to the terms and conditions of this form provided above to you that you are about to submit?</p>
+                <div class="recordinfo11">
+                    <label for="agree">Agree</label>
+                    <input type="radio" id="agree" name="terms">
+                    <label for="disagree">Disagree</label>
+                    <input type="radio" id="disagree" name="terms">
+                </div>
+
+                <p>
+                    <button type="submit" onclick="alert('Application Successful')">Apply for Job</button>
+                    <button type="submit" onclick="alert('Cancelled')">Cancel</button>
+
+                </p>
+
+                
+            </form>
+
+          </div>
+      </div>
+  </div>
+
+</body>
+</html> 
